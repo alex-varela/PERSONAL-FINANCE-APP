@@ -1,0 +1,122 @@
+:root {
+  --bg: #f5f5f5;
+  --primary: #000000;
+  --accent: #ff3b3b;
+  --accent2: #FF9F9F;
+  --border: 2px solid var(--primary);
+  --shadow: 4px 4px 0px var(--primary);
+  --font-family:  "Arial", sans-serif;
+  --font-weight: 700;
+}
+
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background: var(--bg);
+  color: var(--primary);
+}
+
+.container {
+  width: 90%;
+  align-self: center;
+  /* margin: auto; */
+  padding: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  /* text-shadow: var(--shadow); */
+  margin-bottom: 1rem;
+}
+
+input {
+  display: flex;
+   /* width: 100%;  */
+  /* margin-bottom: 0.5rem; */
+  /* padding: 0.75rem; */
+  /* border: var(--border); */
+  border-width: 0;
+   /* box-shadow: var(--shadow);  */
+  /* background: white; */
+  font-family:  "Arial", sans-serif;
+  font-weight: 700;
+} 
+
+button {
+
+  display: flex;
+  /* width: 100%; */
+max-width: 150rem;
+  height: 2rem;
+  margin-bottom: 0.5rem;
+  padding: 0.75rem;
+  border: var(--border);
+  box-shadow: var(--shadow);
+ background: var(--accent);
+   color: white;
+  font-weight: bold;
+  cursor: pointer;
+  align-items: center;
+}
+.neo-select {
+  border: 3px solid var(--neo-border);
+  background: #fff;
+  color: var(--neo-text);
+  padding: 0.5rem;
+  appearance: none;
+  -webkit-appearance: none;
+  border-radius: 0;
+font-family: var(--font-family);
+  font-weight:var(--font-weight);
+}
+
+
+.month-list li, .transaction-table , .month-table{
+  border: var(--border);
+  box-shadow: var(--shadow);
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  background: white;
+}
+
+.transaction-table, .month-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transaction-table th,  .month-table th {
+   border: var(--border);
+  padding: 0.5rem;
+  text-align: left;
+}
+ .transaction-table td, .month-table th {
+  border: 0.1rem;
+
+  padding: 0.5rem;
+  text-align: left;
+}
+
+ .transaction-table tr, .month-table tr {
+  border: var(--border);
+  padding: 0.5rem;
+  text-align: left;
+}
+.transaction-table-header{
+    background-color: var(--accent2);
+}
+
+.form input {
+  margin-bottom: 1rem;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: bold;
+}
