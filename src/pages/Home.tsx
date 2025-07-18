@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import type { RootState, AppDispatch } from "../store";
 import { useNavigate } from "react-router-dom";
